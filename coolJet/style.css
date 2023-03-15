@@ -1,0 +1,684 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+
+.pad-20{
+	padding:20px;
+}
+
+#pictures{
+    background-image: url("cloud.jpg");
+    height: 200px;
+    width: 100%;
+    background-position: center; 
+    background-size: cover;
+}
+
+ #navbar{
+    width: 100%;
+    height: 49px;
+    box-shadow: 0 6px 20px #888888;
+ }
+
+.logo{
+    background-image: url("cool-jet-logo.png");
+    width: 50%;
+    height: 105px;
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+    background-size: 27%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.navbar ul{
+   
+    list-style-type:none;
+    
+}
+
+.navbar li{
+    padding-right: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #6CCBCA;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background-color: #6CCBCA;
+    color: white;
+    padding: 16px;
+}
+
+#wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 58px;
+}
+ 
+
+.age{
+    text-align: center;
+    background-color: gainsboro;
+    padding: 5px 15px;
+    border: none;
+    color: #6CCBCA;
+    font-weight: bold;
+}
+
+
+.roundTrip{
+    padding-top: 20px;
+    color: #6CCBCA;
+    font-weight: bold;
+}
+
+#dataInfo{
+    background-color: #EDEDE5;
+    height: 140px;
+    width: 420px;
+    padding: 20px;
+    color: #6CCBCA;
+}
+
+input {
+    padding: 8px;
+    background-color: gainsboro;
+    border: none;
+    color: #888;  
+}
+
+input::-webkit-input-placeholder { /* Edge */
+  color: #888;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #888;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+#depertureData, #returnData{
+    float: left;
+    position: relative;
+    bottom: 36px;
+    left: 30px;
+    
+}
+
+#returnData{
+    top:5px;
+    left: 20px;
+}
+
+.btnContinue {
+    background-color: #FBAB02;
+    border: none;
+    border-bottom: 4px solid #888;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+
+.btnContinue:after{
+	content: "\f0da";
+    font-family: 'FontAwesome';
+    position: relative;
+    margin-left: 10px;
+	font-size: 15px;
+}
+
+
+.fa-caret-right{
+    position: relative;
+    right: 13px;
+    top: 2px;
+    color: black;
+}
+ 
+#bestOffer{
+
+    width: 300px;
+    position: relative;
+    top: 49px;
+    margin-left: 50px;
+
+}
+
+.bestOffer{
+    background-color: #6CCBCA;
+    text-align: right;
+    padding-right: 80px;
+}
+
+.price{
+    background-color: #EDEDE5;
+    text-align: right;
+    padding-right: 30px;
+    position: relative;
+    bottom: 40px;
+    height: 129px;
+}
+
+#picturesParis{
+    background-image: url("paris.jpg");
+    height: 100px;
+    width: 100px;
+    background-position: center; 
+    background-size: cover;
+    border-radius: 50%;
+    border:10px solid #EDEDE5;
+    position: relative;
+    bottom: 225px;
+    left:5px;
+}
+
+.bestOffer p{
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
+    bottom: 10px;
+    padding-bottom: 5px;
+    left: 10px;
+
+}
+
+.bestOffer h1{
+    position: relative;
+    top: 15px;
+    left: 55px;
+    color: white;
+    font-weight: 100;
+    
+}
+
+.price h1{
+    padding-top: 10px;
+    position: relative;
+    right: 40px;
+    top: 10px;
+    font-size: 50px;
+    color: #888;
+}
+.price p{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: overline;
+    color: #888;
+}
+
+.fa-3x {
+    font-size: 3em;
+    position: relative;
+    bottom: 110px;
+    color: #888;
+}
+
+#age{
+    display: flex;
+	flex-direction: column;
+}
+.age-content{
+	display: flex; 
+    justify-content: space-between;
+}
+.age-w{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.age-w label{
+    margin-bottom:5px;
+}
+
+.age-inline{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.flex-column{
+	display: flex;
+    flex-direction: column;
+}
+
+.flex-inline{
+	display: flex;
+    flex-direction: row;
+}
+.age-content2{
+	align-items: flex-end;
+	background-color: #edede5;
+    padding: 10px;
+}
+ 
+
+.age-content2 .flex-column .flex-inline .flex-column{
+	padding:20px;
+}
+
+.flex-column input{
+	    width: 140px;
+}
+
+
+
+#packGo{
+    width: 300px;
+    position: relative;
+    top: 49px;
+    margin-left: 50px;
+}
+.bookBy{
+    background-color: #6CCBCA;
+    text-align: right;
+    padding-right: 80px;
+}
+.city{
+    background-color: #EDEDE5;
+    position: relative;
+    bottom: 40px;
+    height: 129px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bookBy h1{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.bookBy p{
+    position: relative;
+    bottom: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.city p{
+    color: #888;
+}
+
+#travelGuide{
+    width: 300px;
+    position: relative;
+    top: 49px;
+    margin-left: 50px;
+}
+
+.fYt{
+    background-color: #6CCBCA;
+    text-align: right;
+    padding-right: 80px;
+}
+.picturesTrip{
+    background-color: #EDEDE5;
+    position: relative;
+    height: 129px;
+    bottom: 40px;
+    background-image: url("find your trip.jpg");
+    background-position: center; 
+    background-size: cover;
+
+}
+
+.fYt p{
+    position: relative;
+    bottom: 25px;
+    padding-bottom: 10px;
+    right: 72px;
+}
+
+.fYt h1{
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+footer{
+    background-color: #6CCBCA;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+footer .left-side{
+    display: flex;
+    align-items: center;
+}
+
+
+#logo_two{
+    background-image: url(cool-jet-logo.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    width: 200px;
+    background-size: 80%;
+    position: relative;
+}
+
+#copyright{
+    border-left: 1px solid black;
+    position: relative;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*---------------------For Laptop or small-size screen: 768px -1024px---------------------*/
+ 
+@media only screen and (max-width: 1199px){
+    #wrap{
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 80px;
+    }
+
+     #packGo, #travelGuide{
+        width: 535px;
+        max-width: 100%;
+    }
+
+    #passengerInfo{
+        width: auto;
+    }
+
+    #age{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bestOffer{
+        width: 535px;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        box-sizing: border-box;
+        
+    }
+
+    
+    #age{
+        align-items: unset;
+    }
+    
+    #travelGuide{
+        
+        margin-bottom: 80px;
+    }
+
+    #picturesParis{
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .logo{
+        position: absolute;
+        top: 190px;
+        bottom: 0px;
+        left: 30px;
+        right: 0px;
+        background-size: 55%;
+        width: 35%;
+    }
+
+    #bestOffer, #packGo, #travelGuide{
+        margin: 0;
+    }
+
+    .navbar a{
+        font-size: small;
+    }
+    
+    .navbar{
+        justify-content: end;
+    }
+    footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+ 
+}
+
+/*-------------- end screen min 768 max 1024px-------------------*/
+.navBarBtn, .switch {
+    display: none;
+}
+/*-----------------For Tablets or iPad: 480px - 768px-----------------*/
+
+@media only screen and (max-width: 767px){
+    .logo{
+        background-image: url(cool-jet-logo.png);
+        width: 100%;
+        height: 150px;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;
+        bottom: 30px;
+        background-position: center;
+        margin: auto;
+        top: -40px;
+        left: 0;
+        z-index: 9;
+    } 
+    #navbar{
+        height: auto;
+    }
+    .navbar{
+        height: 50px;
+        padding: 10px 0;
+    }
+    .navbar ul{
+        display: none; 
+    }
+    .navbar-opened{
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        background-color: #fff;
+        height: auto;
+        box-shadow: 0 15px 5px #888888;
+    }
+    .navbar-opened ul{
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .navbar-opened ul li{
+        height: 40px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .navBarBtn{
+        display: block;
+        align-self: flex-start; 
+        z-index: 999; 
+        position: absolute;
+        right: 15px;
+        top: 215px;
+    }
+    
+    .fa-bars{
+        color:#6CCBCA;
+        position: static;
+    }
+
+    .navBarBtn{
+        background-color: white;
+        border-style: none;
+    }
+
+    .age-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 250px;
+        margin-left: auto;
+    }
+
+    .age-content2{
+        background-color: white;
+    }
+    .flex-column input {
+        width: 97px;
+    }
+
+    .btnContinue{
+        padding: 10px 100px;
+    }
+
+    .switch { 
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color:#6CCBCA;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      input:checked + .slider {
+        background-color: white;
+      }
+      input:focus + .slider {
+        box-shadow: 0 0 1px black;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+
+      .slider.round {
+        border-radius: 34px;
+        border: 1px solid black;
+
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      #roundTrip{
+        display: none;
+      }
+      #packGo, #travelGuide, #bestOffer{
+        margin: auto;
+        width: 300px;
+      }
+
+      #travelGuide{
+        margin-bottom: 100px;
+      }
+      footer{
+        display: grid;
+        justify-content:center ;
+      }
+
+      #logo_two{
+        margin: auto;
+        position: unset;
+        border-bottom: 1px solid black;
+        width: 20%;
+        background-size: 100%;
+        margin-top: 25px;
+
+      }
+
+      #copyright{
+        border-left: 0;
+        text-align: center
+      }
+
+      #lastDiv{
+        color: white;
+        background-color: #004948;
+        width: 480px;
+        text-align: center;
+      }
+}
+
+/*-------------- end screen min 480 max 768px-------------------*/
+
+/*-----------------For Mobile devices: 320px-480px ---------------*/
+@media only screen and (max-width: 479px){
+    footer{
+        flex-direction: column;
+    }
+
+    #lastDiv{
+        width: 100%;
+    }
+}

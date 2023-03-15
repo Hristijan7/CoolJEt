@@ -1,0 +1,19 @@
+{
+    "entries":[
+        {
+            "label": "Amsterdam Netherlands",
+            "country":"Amsterdam",
+            "city": "Netherlands"
+        },
+        {
+            "label": "Belgrade Serbia",
+            "country":"Belgrade ",
+            "city": "Serbia"
+        },
+        {
+            "label": "Chisinau Moldova",
+            "country":"Chisinau ",
+            "city": "Moldova"
+        }
+    ]
+}
